@@ -19,14 +19,17 @@ export function Contacto1() {
         <section className={styles.section}>
             <header>
                 <h1>Contacta a un Experto</h1>
+
                 <p>
                     Estamos aquí para asesorarle en la recuperación de saldos de subcuenta de vivienda.
                     <br />
                     Nuestro equipo institucional le brindará la claridad y seguridad que su patrimonio merece.
                 </p>
             </header>
+
             <div className={styles.grid}>
                 <ContactForm />
+
                 <aside>
                     <div className={styles.immediate}>
                         <h2>Atención Inmediata</h2>
@@ -35,6 +38,7 @@ export function Contacto1() {
                                 <span className={item.accent ? styles.accent : ''}>
                                     <img src={item.icon} alt="" />
                                 </span>
+
                                 <p>
                                     <small>{item.label}</small>
                                     <b>{item.value}</b>
@@ -42,10 +46,12 @@ export function Contacto1() {
                             </div>
                         ))}
                     </div>
+
                     <div className={styles.schedule}>
                         <h2>
                             <span aria-hidden="true">◷</span> Horarios de Atención
                         </h2>
+
                         {schedules.map(([day, time], i) => (
                             <p className={i === 2 ? styles.closed : ''} key={day}>
                                 <span>{day}</span>
