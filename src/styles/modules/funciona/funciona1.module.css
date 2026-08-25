@@ -1,1 +1,78 @@
-.section{background:var(--color-skyred);padding:85px 0}.inner{width:min(1120px,calc(100% - 40px));margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.inner small{font-family:var(--font-special);letter-spacing:.18em;color:var(--color-red);font-weight:700}.inner h1{font-size:clamp(43px,4.4vw,62px);line-height:1.22;margin:24px 0 26px}.inner p{color:var(--color-muted);font-size:19px;margin-bottom:34px}.inner button{border:0;background:var(--color-red);color:white;padding:18px 32px;font-size:18px;font-weight:700;cursor:pointer}.visual{position:relative}.visual>img{width:100%;box-shadow:0 16px 28px rgba(83,19,27,.15)}.visual aside{position:absolute;left:24%;bottom:-55px;background:white;border:1px solid var(--color-border);padding:24px 28px;display:grid;grid-template-columns:24px 1fr;gap:6px 10px;min-width:240px}.visual aside img{width:22px}.visual aside b{color:var(--color-red)}.visual aside span{grid-column:1/-1}@media(max-width:800px){.inner{grid-template-columns:1fr;gap:55px}.section{padding:60px 0 100px}.visual aside{left:10%;}}
+.section {
+    background: var(--color-skyred);
+    padding: 85px 0;
+}
+.inner {
+    width: min(1120px, calc(100% - 40px));
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+.inner small {
+    font-family: var(--font-special);
+    letter-spacing: 0.18em;
+    color: var(--color-red);
+    font-weight: 700;
+}
+.inner h1 {
+    font-size: clamp(43px, 4.2vw, 50px);
+    line-height: 1.22;
+    margin: 24px 0 26px;
+}
+.inner p {
+    color: var(--color-muted);
+    font-size: 19px;
+    margin-bottom: 34px;
+}
+.inner button {
+    border: 0;
+    background: var(--color-red);
+    color: white;
+    padding: 18px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.visual {
+    position: relative;
+}
+.visual > img {
+    width: 100%;
+    box-shadow: 0 16px 28px rgba(83, 19, 27, 0.15);
+    transform: rotate(2deg);
+}
+.visual aside {
+    position: absolute;
+    left: 24%;
+    bottom: -55px;
+    background: white;
+    border: 1px solid var(--color-border);
+    padding: 24px 28px;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    gap: 6px 10px;
+    min-width: 240px;
+}
+.visual aside img {
+    width: 22px;
+}
+.visual aside b {
+    color: var(--color-red);
+}
+.visual aside span {
+    grid-column: 1/-1;
+}
+@media (max-width: 800px) {
+    .inner {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+    .section {
+        padding: 60px 0 100px;
+    }
+    .visual aside {
+        left: 10%;
+    }
+}
