@@ -19,32 +19,48 @@
     position: relative;
     max-width: 760px;
     margin: auto;
+    --axis-gap: 85px;
+    --line-top: 25px;
+    --line-bottom: 150px;
 }
+
 .timeline:before {
     content: '';
     position: absolute;
     left: 50%;
-    top: 20px;
-    bottom: 20px;
+    top: var(--line-top);
+    bottom: var(--line-bottom);
     width: 1px;
     background: var(--color-border);
 }
+
 .timeline article {
     position: relative;
     display: flex;
     width: 50%;
     min-height: 220px;
 }
+
 .left {
     justify-content: flex-end;
     text-align: right;
 }
+
 .right {
     margin-left: 50%;
     text-align: left;
 }
+
 .content {
-    width: calc(100% - 70px);
+    width: 100%;
+}
+
+.left .content {
+    padding-right: var(--axis-gap);
+}
+
+.right .content {
+    padding-left: var(--axis-gap);
 }
 .content h3 {
     color: var(--color-red);
@@ -85,10 +101,16 @@
 .timeline article:last-child .icon img {
     filter: invert(1);
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+    .timeline {
+        --line-top: 20px;
+        --line-bottom: 140px;
+    }
+
     .timeline:before {
         left: 31px;
     }
+
     .timeline article,
     .right {
         width: 100%;
@@ -98,9 +120,15 @@
         padding-left: 90px;
         min-height: 200px;
     }
-    .content {
+
+    .content,
+    .left .content,
+    .right .content {
         width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
+
     .left .icon,
     .right .icon {
         left: 0;
