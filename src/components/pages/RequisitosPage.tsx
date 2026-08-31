@@ -10,8 +10,11 @@ export default function RequisitosPage() {
                 title="Laudo | Requisitos"
                 description="Consulta los requisitos y documentos para iniciar la recuperación de tu subcuenta de vivienda."
             />
+
             <Requisitos1 />
+
             <Requisitos2 />
+
             <Requisitos3 />
         </main>
     );

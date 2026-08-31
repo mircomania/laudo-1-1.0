@@ -1,1 +1,70 @@
-.section{background:var(--color-dark);color:white;padding:85px 20px}.inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.15fr .85fr;gap:90px;align-items:center}.inner h2{color:#ffd8d8;font-size:clamp(40px,4vw,56px);margin-bottom:22px}.inner>div>p{color:#d9caca;font-size:19px;max-width:600px;margin-bottom:32px}.inner ul{list-style:none;display:grid;gap:24px;margin-bottom:42px}.inner li{display:flex;gap:16px}.inner li img{width:22px;filter:invert(70%) sepia(20%) saturate(900%) hue-rotate(308deg)}.inner li span{display:flex;flex-direction:column;color:#cdbcbc}.inner li b{color:white;font-size:23px}.inner button{border:0;background:var(--color-red);color:white;padding:18px 40px;font-size:17px;cursor:pointer}.inner>img{width:100%;border-radius:5px;box-shadow:0 20px 30px rgba(0,0,0,.25)}@media(max-width:750px){.inner{grid-template-columns:1fr;gap:50px}.inner>img{max-width:480px;margin:auto}}
+.section {
+    background: var(--color-dark);
+    color: white;
+    padding: 85px 20px;
+}
+.inner {
+    max-width: 1120px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 90px;
+    align-items: center;
+}
+.inner h2 {
+    color: #ffd8d8;
+    font-size: clamp(40px, 4vw, 46px);
+    margin-bottom: 22px;
+}
+.inner > div > p {
+    color: #d9caca;
+    font-size: 19px;
+    max-width: 600px;
+    margin-bottom: 32px;
+}
+.inner ul {
+    list-style: none;
+    display: grid;
+    gap: 24px;
+    margin-bottom: 42px;
+}
+.inner li {
+    display: flex;
+    gap: 16px;
+}
+.inner li img {
+    width: 22px;
+    filter: invert(70%) sepia(20%) saturate(900%) hue-rotate(308deg);
+}
+.inner li span {
+    display: flex;
+    flex-direction: column;
+    color: #cdbcbc;
+}
+.inner li b {
+    color: white;
+    font-size: 23px;
+}
+.inner button {
+    border: 0;
+    background: var(--color-red);
+    color: white;
+    padding: 18px 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.inner > img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 750px) {
+    .inner {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .inner > img {
+        max-width: 480px;
+        margin: auto;
+    }
+}
