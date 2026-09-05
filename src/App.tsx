@@ -13,6 +13,7 @@ const FuncionaPage = lazy(() => import('./components/pages/FuncionaPage'));
 const ContactoPage = lazy(() => import('./components/pages/ContactoPage'));
 const RequisitosPage = lazy(() => import('./components/pages/RequisitosPage'));
 const FaqPage = lazy(() => import('./components/pages/FaqPage'));
+const PoliticasPage = lazy(() => import('./components/pages/PoliticasPage'));
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                     <Route path="/como-funciona" element={<FuncionaPage />} />
                     <Route path="/requisitos" element={<RequisitosPage />} />
                     <Route path="/faq" element={<FaqPage />} />
+                    <Route path="/politica-privacidad" element={<PoliticasPage />} />
                     <Route path="*" element={<ErrorPage />}></Route>
                 </Routes>
             </Suspense>

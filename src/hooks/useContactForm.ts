@@ -153,7 +153,8 @@ export function useContactForm() {
                 utmCampaign: utmParams.utmCampaign,
             };
 
-            const response = await fetch('http://localhost:5000/submit', {
+            //'http://localhost:5000/submit' '/backend/submit.php'
+            const response = await fetch('/backend/submit.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
