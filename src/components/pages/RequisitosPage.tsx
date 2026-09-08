@@ -9,6 +9,7 @@ export default function RequisitosPage() {
             <TitleSEO
                 title="Laudo | Requisitos"
                 description="Consulta los requisitos y documentos para iniciar la recuperación de tu subcuenta de vivienda."
+                canonical="https://www.recuperacionsubcuentavivienda.com/requisitos"
             />
 
             <Requisitos1 />

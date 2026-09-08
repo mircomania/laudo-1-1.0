@@ -9,6 +9,7 @@ export default function FuncionaPage() {
             <TitleSEO
                 title="Laudo | ¿Cómo funciona?"
                 description="Conoce paso a paso el proceso para recuperar el saldo de tu subcuenta de vivienda."
+                canonical="https://www.recuperacionsubcuentavivienda.com/como-funciona"
             />
 
             <Funciona1 />

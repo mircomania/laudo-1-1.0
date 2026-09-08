@@ -4,7 +4,7 @@ import { ContactForm } from '../../form/ContactForm';
 import styles from '../../../styles/modules/contacto/contacto1.module.css';
 
 const contacts = [
-    { icon: chat, label: 'WHATSAPP', value: '+52 123 456 7890', accent: true },
+    { icon: chat, label: 'WHATSAPP', value: '+52 81 2631 3850', accent: true },
     { icon: phone, label: 'OFICINA', value: '01 800 LAUDO' },
 ];
 

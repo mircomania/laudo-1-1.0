@@ -16,7 +16,9 @@ export function Funciona1() {
                         complicaciones.
                     </p>
 
-                    <BotonNav to="/contacto">Iniciar Consulta Gratis</BotonNav>
+                    <BotonNav to="/contacto" dataCta="funciona-contacto-btn">
+                        Iniciar Consulta Gratis
+                    </BotonNav>
                 </div>
 
                 <div className={styles.visual}>

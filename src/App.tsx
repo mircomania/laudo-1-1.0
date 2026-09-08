@@ -5,6 +5,7 @@ import { Navbar } from './components/common/Navbar';
 import { Footer } from './components/common/Footer';
 
 import { Cargando } from './components/utils/Cargando';
+import { WhatsAppIcon } from './utils/WhatsAppIcon';
 import { ScrollToTop } from './utils/scrollToTop';
 
 const ErrorPage = lazy(() => import('./components/pages/ErrorPage'));
@@ -21,6 +22,8 @@ function App() {
             <ScrollToTop />
 
             <Navbar />
+
+            <WhatsAppIcon />
 
             <Suspense
                 fallback={

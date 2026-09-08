@@ -4,7 +4,11 @@ import { Politicas1 } from '../exports/politicas/Polticas1';
 export default function PoliticasPage() {
     return (
         <main>
-            <TitleSEO title="Laudo | Políticas" description="Conoce nuestras políticas de privacidad y términos de servicio." />
+            <TitleSEO
+                title="Laudo | Políticas"
+                description="Conoce nuestras políticas de privacidad y términos de servicio."
+                canonical="https://www.recuperacionsubcuentavivienda.com/politica-privacidad"
+            />
 
             <Politicas1 />
         </main>

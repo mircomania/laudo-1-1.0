@@ -30,7 +30,9 @@ export function Requisitos2() {
                         ))}
                     </ul>
 
-                    <BotonNav to="/contacto">Iniciar Consulta Gratis</BotonNav>
+                    <BotonNav to="/contacto" dataCta="requisitos-contacto-btn">
+                        Iniciar Consulta Gratis
+                    </BotonNav>
                 </div>
 
                 <img src={image} alt="Representación de una persona solicitante" />

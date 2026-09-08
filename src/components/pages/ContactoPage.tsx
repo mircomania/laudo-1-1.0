@@ -8,6 +8,7 @@ export default function ContactoPage() {
             <TitleSEO
                 title="Laudo | Contacto"
                 description="Contacta a un experto de Laudo para recibir asesoría sobre la recuperación de tu subcuenta de vivienda."
+                canonical="https://www.recuperacionsubcuentavivienda.com/contacto"
             />
             <Contacto1 />
             <Contacto2 />
