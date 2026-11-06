@@ -11,7 +11,7 @@ function HomePage() {
             <TitleSEO
                 title="Laudo | Recuperación de subcuenta de vivienda"
                 description="Recupera el saldo de tu subcuenta de vivienda mediante un proceso legal transparente y seguro."
-                canonical="https://www.recuperacionsubcuentavivienda.com/"
+                canonical="https://www.recuperacionsubcuentavivienda.com.mx/"
             />
 
             <Home1 />

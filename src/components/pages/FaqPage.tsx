@@ -9,7 +9,7 @@ export default function FaqPage() {
             <TitleSEO
                 title="Laudo | Preguntas frecuentes"
                 description="Respuestas sobre el proceso, requisitos y documentos para recuperar fondos de la subcuenta de vivienda."
-                canonical="https://www.recuperacionsubcuentavivienda.com/faq"
+                canonical="https://www.recuperacionsubcuentavivienda.com.mx/faq"
             />
             <Faq1 />
             <Faq2 />

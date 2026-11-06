@@ -7,7 +7,7 @@ export default function PoliticasPage() {
             <TitleSEO
                 title="Laudo | Políticas"
                 description="Conoce nuestras políticas de privacidad y términos de servicio."
-                canonical="https://www.recuperacionsubcuentavivienda.com/politica-privacidad"
+                canonical="https://www.recuperacionsubcuentavivienda.com.mx/politica-privacidad"
             />
 
             <Politicas1 />
